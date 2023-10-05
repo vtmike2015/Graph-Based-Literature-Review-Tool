@@ -13,3 +13,13 @@ Modeling academic literature data as a network graph helps answer questions invo
 <li>Exploring relationships of varying or unknown depth (such as References of References)</li>
 <li>Discovering different paths (such as Author connections through Intitution or co-authored Works)</li>
 </ul>
+
+The Jupyter Notebooks are written to work with Neo4j version 5.x and higher with the APOC Library installed. To use Neo4j's Vector Search Index capabilities, Neo4j version 5.11 or higher is needed. 
+<ul>
+<li>To import and export files as needed, an apoc.conf file in your Neo4j configuration directory is needed with the two lines below. 
+  <ul>
+    <li>apoc.import.file.enabled=true</li>
+    <li>apoc.export.file.enabled=true</li>
+  </ul>
+</li>
+</ul>
