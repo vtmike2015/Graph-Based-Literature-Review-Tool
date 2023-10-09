@@ -1,0 +1,10 @@
+neo4j==5.11.0
+pyalex==0.11
+arxiv
+tiktoken
+openai==0.28.0
+IPython==8.14.0
+jupyter_client==8.3.0
+jupyter_core==5.3.1
+jupyterlab==4.0.4
+notebook==7.0.3
